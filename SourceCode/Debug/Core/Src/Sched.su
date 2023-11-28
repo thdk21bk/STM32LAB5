@@ -1,0 +1,4 @@
+Sched.c:25:6:SCH_Init	4	static
+Sched.c:29:6:SCH_Update	16	static
+Sched.c:45:6:SCH_Add_Task	24	static
+Sched.c:60:6:SCH_Dispatch_Tasks	16	static
