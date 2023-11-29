@@ -7,7 +7,7 @@
 #include "Sched.h"
 
 typedef struct {
-	void ( * pTask)(void);
+	void (*pTask)(void);
 	uint32_t Delay;
 	uint32_t Period;
 	uint8_t RunMe;

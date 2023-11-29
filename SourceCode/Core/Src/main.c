@@ -97,7 +97,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  SCH_Add_Task(ledtest, 100, 500);
+  SCH_Add_Task(ledtest, 300, 200);
   while (1)
   {
 	  SCH_Dispatch_Tasks();

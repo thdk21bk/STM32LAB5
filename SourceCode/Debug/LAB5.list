@@ -426,9 +426,9 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  SCH_Add_Task(ledtest, 100, 500);
- 800036a:	f44f 72fa 	mov.w	r2, #500	; 0x1f4
- 800036e:	2164      	movs	r1, #100	; 0x64
+  SCH_Add_Task(ledtest, 300, 200);
+ 800036a:	22c8      	movs	r2, #200	; 0xc8
+ 800036c:	f44f 7196 	mov.w	r1, #300	; 0x12c
  8000370:	4803      	ldr	r0, [pc, #12]	; (8000380 <main+0x30>)
  8000372:	f7ff ff4b 	bl	800020c <SCH_Add_Task>
   while (1)
